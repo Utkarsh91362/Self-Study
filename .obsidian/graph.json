@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#ch  ",
+      "color": {
+        "a": 1,
+        "rgb": 3080069
+      }
+    },
+    {
+      "query": "tag:projects",
+      "color": {
+        "a": 1,
+        "rgb": 49151
+      }
+    },
+    {
+      "query": "tag:#txt  ",
+      "color": {
+        "a": 1,
+        "rgb": 29347
+      }
+    },
+    {
+      "query": "tag:#project  ",
+      "color": {
+        "a": 1,
+        "rgb": 6908341
+      }
+    },
+    {
+      "query": "path:\"Python/Chapters/Chapter 9/txt files\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8046054
+      }
+    },
+    {
+      "query": "path:\"Python/Chapters/Chapter 12/txt files\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8046054
+      }
+    },
+    {
+      "query": "tag:#content  ",
+      "color": {
+        "a": 1,
+        "rgb": 16712965
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 2.1,
+  "nodeSizeMultiplier": 1.00155925155925,
+  "lineSizeMultiplier": 1.06268191268191,
+  "collapse-forces": false,
+  "centerStrength": 0.791060291060291,
+  "repelStrength": 20,
+  "linkStrength": 0.865904365904366,
+  "linkDistance": 64,
+  "scale": 0.17900686532869878,
+  "close": false
+}

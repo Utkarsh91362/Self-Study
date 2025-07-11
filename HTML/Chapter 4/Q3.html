@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Form</title>
+</head>
+
+<body>
+  <form action="submit.html" method="post">
+    <div>
+      <h1>Travel Form</h1>
+    </div>
+
+    <section>
+      <h2>Personal Information</h2>
+      <label for="name">Full Name</label><br>
+      <input type="text" id="name" name="fullname" placeholder="Enter Your Name" required><br>
+
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br>
+
+      <label for="phone">Phone no.</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone No." required><br>
+    </section>
+
+    <section>
+      <h2>Travel Details</h2>
+
+      <label for="destination">Destination</label><br>
+      <input type="text" id="destination" name="destination" placeholder="Enter Your Destination" required><br>
+
+      <label for="departure">Departure Date</label><br>
+      <input type="date" id="departure" name="departure_date" required><br>
+
+      <label for="return">Return Date</label><br>
+      <input type="date" id="return" name="return_date"><br>
+
+      <label for="transport">Select Mode of Transport:</label><br>
+      <select name="transport" id="transport" required>
+        <option value="" disabled selected>--Select--</option>
+        <option value="Bus">Bus</option>
+        <option value="Train">Train</option>
+        <option value="Flight">Flight</option>
+      </select><br>
+
+      <input type="checkbox" name="accommodation" id="accommodation">
+      <label for="accommodation">Need Accommodation?</label><br>
+    </section>
+
+    <section>
+      <h2>Preferences</h2>
+
+      <p>Food Preferences:</p>
+      <label><input type="radio" value="Veg" name="food"> Veg</label>
+      <label><input type="radio" value="Non-Veg" name="food"> Non-Veg</label>
+      <label><input type="radio" value="Vegan" name="food"> Vegan</label><br><br>
+
+      <label for="seat">Seat Preference:</label>
+      <select name="seat" id="seat">
+        <option value="" disabled selected>--Select--</option>
+        <option value="Window">Window</option>
+        <option value="Aisle">Aisle</option>
+        <option value="No Preference">No Preference</option>
+      </select><br><br>
+
+      <input type="checkbox" name="insurance" id="insurance">
+      <label for="insurance">Need Travel Insurance?</label>
+    </section>
+
+    <section>
+      <h2>Special Assistance</h2>
+      <label for="assistance">Special Assistance Required?</label><br>
+      <textarea name="assistance" id="assistance" placeholder="What are your needs?" rows="4" cols="40"></textarea>
+    </section>
+
+    <section>
+      <input type="checkbox" name="terms" id="terms" required>
+      <label for="terms">I accept the Terms and Conditions</label><br><br>
+
+      <input type="submit" value="Submit Form">
+    </section>
+  </form>
+</body>
+
+</html>

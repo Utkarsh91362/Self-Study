@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "c395c53eb42d5d99",
+    "type": "split",
+    "children": [
+      {
+        "id": "723a77fa318eff62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b4813610e4d7eb2a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f020c8c1c44aad1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "15e00bd85f67f3e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17c2fda3386f5c9f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1aa07f2db5af7a58",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#ch",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "64adf63a1af9d153",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300.5
+  },
+  "right": {
+    "id": "5596ce8ac61ba3c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f940afd92194e3f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c94937847056b125",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "c00b6279168ffbdf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "6ea79876c87eee5a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "25b76e32fdf7f8d3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "vscode-editor:Create Code File": false
+    }
+  },
+  "active": "b4813610e4d7eb2a",
+  "lastOpenFiles": [
+    "README.md",
+    "HTML/Index.md",
+    "Python/Index.md",
+    "HTML/Chapter 4/Ch-4 List, Tables and forms.md",
+    "HTML/Chapter 5/Ch-5 seo.md",
+    "HTML/Chapter 3/Ch-3  Creating Page Layout.md",
+    "HTML/Chapter 3/img/Youtube_logo.png",
+    "HTML/Chapter 2/Ch-2 Basic HTML Tags.md",
+    "HTML/Chapter 1/Ch-1 HTML Basics.md",
+    "Python/Chapters/Chapter 2/Ch-2 Variables and Datatypes.md",
+    "Python/Chapters/Chapter 1/Ch-1 Modules, Comments &pip.md",
+    "Untitled.md",
+    "Python/Projects/Qr code generator/QR Generator.md",
+    "HTML",
+    "New folder",
+    "Python/Projects.md",
+    "Python/Projects/Qr code generator/main.py",
+    "Python/Projects/Qr code generator",
+    "Python/Projects/New folder",
+    "Python/Projects/Unit Converter/Unit Converter.md",
+    "Python/Projects/Stone-Paper-Scissors/Stone-Paper-Scissor.md",
+    "Python/Projects/Guessing Game/highscore.md",
+    "Python/Chapters/Chapter 13/Ch-13 Advanced Python 2.md",
+    "Python/Chapters/Chapter 12/Ch-12 Advanced Python 1.md",
+    "Python/Chapters/Chapter 11/Ch-11 Inheritance & more on OOPs.md",
+    "Python/Chapters/Chapter 10/Ch-10 Object Oriented Programming.md",
+    "Python/Chapters/Chapter 9/Ch-9 File Input-Output.md",
+    "Python/Chapters/Chapter 8/Ch-8 Functions & Recursions.md",
+    "Python/Chapters/Chapter 7/Ch-7 Loops in Python.md",
+    "Python/Chapters/Chapter 6/Ch-6 Conditional Expressions.md",
+    "Python/Chapters/Chapter 5/Ch-5 Dictionary & Sets.md",
+    "Python/Chapters/Chapter 4/Ch-4 List and Touples.md",
+    "Python/Projects/Nova/actions/productivity_and_tools/clock/alarm_utils.py",
+    "Python/Projects/Nova/actions/productivity_and_tools/clock/alarm_scheduler.py",
+    "Python/Projects/Nova/nova-1dba5131-961f-47b4-8b51-8183d6178627.mp3",
+    "Python/Projects/Nova/nova-7b7fcfa4-ff23-4136-874b-5ea822d4bba5.mp3",
+    "Python/Projects/Nova/nova-adb993cc-a9cc-4141-b1a1-c864b59750b2.mp3",
+    "Python/Projects/Nova/screenshots/screenshot-20250703-133916.png",
+    "Python/Projects/Nova/screenshots/screenshot-20250703-133831.png",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "wallpaperflare.com_wallpaper.jpg"
+  ]
+}

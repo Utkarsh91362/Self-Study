@@ -1,0 +1,6 @@
+.graph-view.color-fill-extension[data-extension="py"],
+.graph-view.color-fill-tag[data-tag$=".py"],
+.graph-view.color-fill[data-node-label$=".py"] {
+  color: #9C27B0 !important;
+  fill: #9C27B0 !important;
+}
