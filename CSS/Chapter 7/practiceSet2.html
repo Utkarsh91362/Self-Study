@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: grid;
+            color: white;
+            grid-template-columns: auto auto ;
+            /* justify-content: center; */
+            align-items: center;
+        }
+        nav img{
+            height: 50px;
+            width: 50px;
+            position: relative;
+            top:5px;
+        }
+        header{
+            height:10vh;
+            background-color: black;
+            
+        }
+        ul{
+            list-style: none;
+            display: grid;
+            margin: 0 10px;
+            grid-template-columns: auto auto auto;
+            justify-content: right;
+            align-items: center;
+            background-color: black;
+            gap: 10px;
+            font-size: 18px
+        }
+        .container1{
+            display: inline-grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 40vw;
+        }
+        .left{
+            background-color: red;
+            height: 50vh;
+            width: 30vw;
+        }
+        .right{
+            background-color: green;
+            height: 50vh;
+            width: 30vw;
+        }
+        .container2{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap:20vw;
+            justify-content: center;
+        }
+        .container2 img{
+            height: 200;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="profile.png" alt="user profile">
+            <ul>
+                
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container1">
+        <div class="left">This is left box</div>
+        <div class="right">This is right box</div>
+    </div>
+    <div class="container2">
+        <img src="profile-user.png" alt="">
+        <img src="profile-user.png" alt="">
+        <img src="profile-user.png" alt="">
+    </div>
+</body>
+
+</html>

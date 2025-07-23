@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set 3</title>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        h1::after {
+            content: "Now in White Zone";
+        }
+
+        @media screen and (max-width:1100px) {
+            body {
+                background-color: green;
+            }
+
+            h1::after {
+                content: "Now in Green Zone";
+            }
+
+        }
+
+        @media screen and (max-width: 800px) {
+            body {
+                background-color: red;
+            }
+
+            h1::after {
+                content: "Now in Red Zone";
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1></h1>
+</body>
+
+</html>
