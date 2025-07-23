@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 34px;
+        }
+        ul {
+            display: flex;
+            padding: 0px 34px;
+        }
+
+        li {
+            list-style: none;
+            padding: 0px 34px;
+
+
+        }
+
+        header {
+            background-color: black;
+            color: white;
+
+        }
+
+        .container1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .container2 img{
+            margin: 40px;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px cyan,
+            0 0 20px cyan,
+            0 0 40px cyan;
+        }
+        .container2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .left {
+
+            height: 50vh;
+            background-color: red;
+            color: white;
+            width: 30vw;
+
+        }
+
+        .right {
+
+            height: 50vh;
+            width: 30vw;
+            background-color: green;
+            color: white;
+        }
+        nav img{
+            height: 35px;
+            width: 35px;
+            position: relative;
+            top: -7px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="profile.png" alt="user profile">
+            <ul>
+                
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container1">
+        <div class="left">This is left box</div>
+        <div class="right">This is right box</div>
+    </div>
+    <div class="container2">
+        <img src="profile-user.png" alt="">
+        <img src="profile-user.png" alt="">
+        <img src="profile-user.png" alt="">
+    </div>
+</body>
+
+</html>
