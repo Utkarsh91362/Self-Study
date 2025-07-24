@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .progress {
+            width: 3px;
+            height: 3px;
+            background-color: red;
+            animation: progressbar 2s ease-in-out .18s infinite forwards;
+
+        }
+
+        @keyframes progressbar {
+            0% {
+                width: 3px;
+            }
+            40%{
+                width: 20vw;
+            }
+            70%{
+                width: 65vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+
+        nav {
+            background-color: rgb(230, 230, 230);
+            height: 60px;
+            display: flex;
+            align-items: center;
+
+        }
+
+        nav i {
+            position: relative;
+            top: 1px;
+            margin: 0px 18px;
+            font-size: 28px;
+        }
+
+        .Youtube {
+            position: relative;
+
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 40px 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 25px 0 0 25px;
+            outline: none;
+            font-size: 16px;
+        }
+
+        .clear-btn {
+            position: absolute;
+            right: 50px;
+            font-size: 18px;
+            color: #555;
+            cursor: pointer;
+            display: none;
+        }
+
+        .search-btn {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-left: none;
+            border-radius: 0 25px 25px 0;
+            padding: 10px 16px;
+            cursor: pointer;
+
+        }
+
+        .search-btn i {
+            font-size: 18px;
+            position: relative;
+            left: -4px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0px 22px 0 0;
+        }
+        ul li{
+            font-size: 18px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <nav>
+        <i class="fa-solid fa-bars"></i>
+        <h2 class="Youtube">YouTube</h2>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input" id="search-input">
+            <i class="fa-solid fa-xmark clear-btn" id="clear-btn"></i>
+            <div class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+    </nav>
+</body>
+
+</html>

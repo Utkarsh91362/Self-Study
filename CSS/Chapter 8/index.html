@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .container {
+            background-color: red;
+            height: 55vh;
+        }
+
+        .box {
+            border: 2px solid black;
+            /* transform: translate(0px, 58px) skew(4deg,6deg); */
+            /* transform-origin: 0; */
+            /* transform: scale(2,1); */
+            /* transform: ; */
+            display: inline-block;
+            /* transform: translate(50px,30px) skew(10deg,10deg); */
+            /* transform: rotateX(45deg); */
+        }
+
+        img {
+            width: 182.4px;
+            height: 273.6px;
+            /* transition-property: all;
+            transition-duration: .45s;
+            transition-timing-function: ease-in;
+            transition-delay: .17s; */
+            transition: width .45s  .18s ease-in-out,height 2s  ease-in-out;
+        }
+
+        /* img:hover{
+        width: 273.6px;
+        height: auto;
+    } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img id="myImage" src="img1.jpg" alt="img1"><br>
+            <button id="btn">Toggle</button>
+        </div>
+    </div>
+</body>
+<script>
+    btn.addEventListener("click", () => {
+        const currentWidth = getComputedStyle(myImage).width;
+        
+        if (currentWidth == '182.4px') {
+            myImage.style.width = "91.2px"
+            myImage.style.height="136.8px"
+           
+        }
+        else if (currentWidth == "91.2px") {
+            myImage.style.width = "182.4px"
+            myImage.style.height="273.6px"
+            
+
+        }
+    })
+</script>
+
+</html>

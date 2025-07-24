@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Practice Set 4</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .slider {
+      width: 100vw;
+      height: 600px;
+      overflow: hidden;
+      background-color: rgb(222, 222, 222);
+    }
+
+    .slider-track {
+      display: flex;
+      width: 300vw; /* 3 images */
+      animation: slide 6s infinite;
+    }
+
+    .slide {
+      width: 100vw;
+      height: 600px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .slide img {
+      width: 364.8px;
+      height: 547.2px;
+      object-fit: contain;
+    }
+
+    @keyframes slide {
+      0% { transform: translateX(0vw); }
+      33.33% { transform: translateX(-100vw); }
+      66.66% { transform: translateX(-200vw); }
+      100% { transform: translateX(0vw); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="slider">
+    <div class="slider-track">
+      <div class="slide"><img src="img1.jpg" alt="img1"></div>
+      <div class="slide"><img src="img2.jpg" alt="img2"></div>
+      <div class="slide"><img src="img3.png" alt="img3"></div>
+    </div>
+  </div>
+
+</body>
+</html>
