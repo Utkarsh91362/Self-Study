@@ -3,7 +3,7 @@ console.log(name)
 console.log(name.length)
 console.log(name.toUpperCase())
 console.log(name.toLowerCase())
-console.log(name.slice(3,7))
+console.log(name.slice(2))
 
 console.log(name.replace("sh","x"))
 let age = 22
