@@ -1,0 +1,18 @@
+body{
+    width: 110%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    background-color: rgb(224, 233, 239);
+}
+ul li{
+    list-style: none;
+    padding: 0 23px;
+}

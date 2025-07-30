@@ -45,4 +45,5 @@ while (playAgain) {
     if (result === "cancelled") break;
     playAgain = confirm("Wanna Play again?")
 }
+document.write("<h1>Game over</h1>")
 alert("Game Over!")
