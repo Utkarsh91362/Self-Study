@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d7171db;
+}
+.fingerprint{
+    position: relative;
+}
+
+i{
+    display: flex;
+  font-size: 400px;
+  align-content: center;
+  justify-content: center;
+  color: aqua;
+
+  text-shadow:
+    0 0 0.1px aqua,
+    0 0 1px aqua,
+    0 0 2px aqua,
+    0 0 4px aqua;
+}
+.scan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    text-shadow:
+    0 0 2px aqua,
+    0 0 4px aqua,
+    0 0 8px aqua,
+    0 0 16px aqua;
+}
+.bar{
+    height: 2vh;
+  width: 32vw;
+  background-color: aqua;
+  position: relative;
+  bottom: 11px;
+  box-shadow: 0 0 4px aqua, 0 0 8px aqua, 0 0 16px aqua, 0 0 24px aqua;
+  top: -10px;
+  
+  
+
+  
+}
+@keyframes scanBar {
+ 0% {
+  height:5vh;
+}
+
+100% {
+  height:55vh;
+}
+}
+
+.bar-container {
+background-color: inherit;
+  
+  height: 5vh;
+  width: 34vw;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+  right: -50px;
+  animation: scanBar 2s infinite ease-in-out alternate ;
+}
