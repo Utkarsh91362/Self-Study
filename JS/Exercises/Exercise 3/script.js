@@ -10,5 +10,6 @@ const jokes = [
 function generateJokes(){
     const jokeText=document.getElementsByClassName("jokes")[0]
     const RJ=Math.floor(Math.random()*jokes.length);
-    jokeText.textContent=jokes[RJ]
+
+    jokeText.innerHTML=jokes[RJ]
 }
